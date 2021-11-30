@@ -1,0 +1,190 @@
+.container-fluid {
+    background-color: #FFC0CB;
+}
+
+
+
+.container{
+   width: 60vw;
+   margin-top: 35px;
+}
+
+.perfil {
+    display:flex;
+
+}
+
+.perfil .img_container {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+
+}
+
+.perfil .perfil_informacao {
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: grid;
+
+}
+
+.container select {
+    float: right;
+
+}
+
+.menu {
+    display:flex;
+    justify-content:end;
+}
+
+.projetos {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 0;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bold;
+}
+.projeto {
+    min-width: 150px;
+}
+.formacoes {
+    display:flex;
+    flex-direction: column;
+    padding: 30px 0;
+    width: inherit;
+    
+}
+.formacao {
+    border-bottom: 1px #DB7093 solid;
+}
+
+.formacao .formacao_texto {
+    display: flex;
+    align-items: center;
+}
+
+.img_instituicao {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.formacoes .btn.btn-dark {
+    float: right;
+}
+
+ .projetos .btn.btn-dark {
+        float: right;
+}
+
+.container.github {
+    background-color: #FFC0CB;
+    padding: 25px 50px;
+    width: 100%;
+    margin-top: 20px
+}
+
+.container.github .icone {
+    border-radius: 50%;
+    background-color: lightcoral;
+    width: 45px;
+    height: 45px;
+    padding: 9px 13px;
+}
+
+
+
+
+
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #FFC0CB;
+    padding: 20px;
+}
+.rodape p {
+    color:#DB7093;
+    text-align: center;
+}
+.rodape .menu {
+    float: right
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .container{
+        width: 100;
+    }
+    .perfil .img_container {
+        display: flex;
+    align-items: center;
+    margin-right: 0;
+
+    }
+	
+}
+
+@media screen and (min-width: 900px) {
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .perfil .img_container {
+        display: flex;
+    align-items: center;
+    margin-right: 0;
+
+    }
+    .projetos {
+        flex-direction: column;
+       }
+   
+       .menu {
+           justify-content: space-between;
+           flex-direction: column;
+       }
+   
+       .perfil {
+           flex-direction: column; 
+       }
+
+       .container {
+           width: inherit;
+       }
+   
+   }
+
+
+@media screen and (max-width: 320px) {
+    .perfil .img_container {
+        display: flex;
+    align-items: center;
+    margin-right: 0;
+
+    }
+
+    .projetos {
+     flex-direction: column;
+    }
+
+    .menu {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .perfil {
+        flex-direction: column; 
+    }
+    .container {
+        width: inherit;
+    }
+
+}

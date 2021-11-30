@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="izabela.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Izabela</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample01">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">experiência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">repositórios github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">conteúdo</a>
+                        </li>
+                    </ul>
+                    <form>
+                        <input class="form-control" type="text" placeholder="pesquisar" aria-label="pesquisar">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="perfil">
+
+            <div class="img_container">
+                <img src="fotoiza.jpeg" height=290 width=300 alt="foto" class="img-rounded img-responsive" />
+            </div>
+            <div class="perfil_informacao">
+                <div>
+                    <h4><b>
+                            Izabela Fernanda</b></h4>
+
+                    <p><b>Sobre: </b>Ei, sou a Izabela! Sou graduanda em Sistemas de Informação na PUC Minas, conheça
+                        alguns
+                        dos
+                        meus projetos desenvolvidos e algumas recomendações.
+                    </p>
+                </div>
+                <div class="redesocial">
+                    <h4><b>Redes Sociais</b></h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-discord" viewBox="0 0 16 16">
+                        <path
+                            d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z" />
+                        <path
+                            d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="menu" style="justify-content: space-between">
+            <h4><b>
+                    Projetos</b></h4>
+            <select style="float: right;">
+                <option class="dropdown-item">Categoria: Todos</option>
+                <option class="dropdown-item">Web Sites</option>
+                <option class="dropdown-item">Arte gráfica</option>
+            </select>
+        </div>
+        <div class="projetos">
+
+            <div class="projeto">
+                <img src="projetoa.png" height=130 width=150 class="img-rounded img-responsive" />
+                <label>Jogo RPG</label>
+            </div>
+            <div class="projeto">
+                <img src="projeto2.png" height=130 width=150 class="img-rounded img-responsive" />
+                <label>Robo</label>
+            </div>
+            <div class="projeto">
+                <img src="projetoc.png" height=130 width=150 class="img-rounded img-responsive" />
+                <label>Layout - Figma</label>
+            </div>
+            <div class="projeto">
+                <img src="projeto4.png" height=130 width=150 class="img-rounded img-responsive" />
+                <label>Trailer Jogo - Scratch </label>
+            </div>
+
+        </div>
+        <div class="menu">
+            <button type="button" class="btn btn-dark" style="float:right">+ Carregar mais projetos</button>
+        </div>
+        </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="container">
+        <h4><b>
+                Experiência</b></h4>
+        <div class=formacoes>
+            <div class="formacao row">
+                <div class="img_instituicao col-sm-2">
+                    <img src="logositeware.jpg" height=155 width=110 class="img-rounded img-responsive" />
+                </div>
+                <div class="formacao_texto col-sm-8">
+                    <span><b>Engenheira de Software Junior / Desenvolvimento</b><br>
+                        A Siteware nasceu em 2000 como uma empresa de GEnTe (Gestão, Engajamento e Tecnologia).
+                        Sabemos que as empresas são formadas por pessoas e engajá-las na execução
+                        dos planos é fundamental para uma gestão estratégica mais eficiente.<br>
+                        <span><b>Período: 13/09/21 até o momento.</b></span>
+                    </span>
+                </div>
+            </div>
+            <div class="formacao row">
+                <div class="img_instituicao col-sm-2">
+                    <img src="prodemge.jpg" height=155 width=110 class="img-rounded img-responsive" />
+                </div>
+                <div class="formacao_texto col-sm-8">
+                    <span><b>Desenvolvedora front-end / Desenvolvimento</b><br>
+                        A Companhia de Tecnologia da Informação do Estado de Minas Gerais é a empresa de economia mista
+                        do Governo do Estado de Minas Gerais, Brasil, que presta serviços em tecnologia da informação
+                        para
+                        outros órgãos do estado, como criação e manutenção de sistemas e sites, visando a modernização
+                        do setor público.<br>
+                        <span><b>Período: 15/02/20 a 20/02/21</b></span>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <button type="button" class="btn btn-dark">+ Carregar mais experiências</button>
+        </div>
+        </div>
+
+
+    </section>
+    <section class="container github">
+        <h4><b>Repositórios GitHub</b> </h4>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="icone col-sm-4">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-folder-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z" />
+                        </svg>
+                    </div>
+                    <div class="textoicone col-sm-8">
+                        <p><b>Bootstrap</b></p>
+                        <p><b>Avaliação: </b>The most popular HTML, CSS, and JavaScript framework for developing
+                            responsive, mobile first projects on the web. <br>
+                            <b>Atualizado em: 28/09/2021</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="icone col-sm-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-folder-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z" />
+                        </svg>
+                    </div>
+                    <div class="textoicone col-sm-8">
+                        <p><b>Facebook/React</b></p>
+                        <p><b>Avaliação: </b>A declarative, efficient, and flexible JavaScript library for building user
+                            interfaces. <br>
+                            <b>Atualizado em: 21/09/2021</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="icone col-sm-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-folder-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z" />
+                        </svg>
+                    </div>
+                    <div class="textoicone col-sm-8">
+                        <p><b> Twitter/ Opensource-website </b></p>
+                        <p><b>Avaliação: </b>A listing of open source efforts at Twitter on GitHub <br>
+                            <b>Atualizado em: 22/09/2021</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <button type="button" class="btn btn-dark">+ Carregar mais repositórios</button>
+        </div>
+    </section>
+
+    <section class="container">
+        <h4><b>Recomendação de Conteúdo</b></h4>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="conteudos">
+                    <iframe width="240" height="160" src="https://www.youtube.com/embed/HN1UjzRSdBk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p><b>Vídeo:</b> Desvendando o CSS Grid na prática</p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="conteudos">
+                    <iframe width="240" height="160" src="https://www.youtube.com/embed/q_ppL_sU6qU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p><b>Vídeo:</b> CSS - Como eu penso em CSS?</p>
+                    <P></P>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="conteudos">
+                    <iframe width="240" height="160" src="https://www.youtube.com/embed/H91DhKPjhPk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <P><B>Vídeo:</B> Responsividade na prática</P>
+
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <button type="button" class="btn btn-dark">+ Carregar mais recomendações</button>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC MINAS</b>
+        <div class="menu">
+            <button type="button" class="btn btn-pink"><b>Izabela</b></button>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
